@@ -42,10 +42,35 @@
 			"type": "image\/png"
 		},
 		{
-			"src": "\/images\/android-chrome-512x512.png",
-			"sizes": "512x512",
-			"type": "image\/png"
-		}
+            "src": "/images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-maskable-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+			"purpose": "maskable"
+        },
+        {
+            "src": "/images/android-maskable-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+			"purpose": "maskable"
+        },
+        {
+            "src": "/images/android-maskable-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "density": "5",
+			"purpose": "maskable"
+        },
+        {
+            "src": "/images/android-maskable-512x512.png",
+            "sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+        }
 	],
 	"theme_color": "#fdd835",
 	"background_color": "#f0db4e",
